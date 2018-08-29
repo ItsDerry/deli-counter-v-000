@@ -19,7 +19,6 @@ def take_a_number(deli, person)
     puts "Welcome, #{person}. You are number 1 in line."
   else
     deli << person
-    deli.each_with_index do |person, index|
     puts "Welcome, #{person}. You are number " + deli.length + "in line."
   end
 end
