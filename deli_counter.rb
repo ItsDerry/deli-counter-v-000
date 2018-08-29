@@ -17,11 +17,9 @@ def take_a_number(deli, person)
   if deli == []
     deli << person
     puts "Welcome, #{person}. You are number 1 in line."
-  #your_position = Array.new
-  #your_position = katz_deli << "Ada"
   else
-    deli.each_with_index do |person, index|
     deli << person
+    deli.each_with_index do |person, index|
     return "Welcome, #{person}, You are number #{index + 1} in line."
   end
 end
