@@ -29,3 +29,4 @@ def now_serving(katz_deli)
     katz_deli.shift(0)
   else
 end
+end
