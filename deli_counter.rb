@@ -23,5 +23,9 @@ def take_a_number(deli, person)
   end
 end
 
-def now_serving
+def now_serving(katz_deli)
+  if katz_deli != []
+    puts katz_deli[0]
+    katz_deli.shift(0)
+  else
 end
