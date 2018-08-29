@@ -22,7 +22,7 @@ def take_a_number(deli, person)
   else
     deli.each_with_index do |person, index|
     deli << person
-    returns "Welcome, #{person}, You are number #{index + 1} in line."
+    return "Welcome, #{person}, You are number #{index + 1} in line."
   end
 end
 end
